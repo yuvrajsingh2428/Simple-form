@@ -29,7 +29,7 @@ This is a full-stack web application based on the MERN stack (MongoDB, Express.j
 
 ### 1. Clone the repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/yuvrajsingh2428/Simple-form.git
 cd simple-form
 ```
 
