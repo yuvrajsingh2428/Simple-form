@@ -26,9 +26,6 @@ export default function AdminDashboard() {
   },[]);
 
   function handleDownload() {
-    const user = localStorage.getItem('adminUser');
-    const pw = localStorage.getItem('adminPw');
-    const auth = 'Basic ' + btoa(user + ':' + pw);
     window.open(`http://localhost:5000/api/data/export`, '_blank');
   }
 
