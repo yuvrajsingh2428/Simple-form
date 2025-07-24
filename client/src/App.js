@@ -1,6 +1,6 @@
 // client/src/App.js
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import DataForm from './components/DataForm';
 import AdminDashboard from './components/AdminDashboard';
 import Home from './components/Home';
